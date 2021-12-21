@@ -1,0 +1,85 @@
+body
+        {
+            display: grid;
+            padding: 0px;
+            margin: 0px;
+            flex-direction: column;
+            grid-template-columns: 1fr ;
+
+        }
+        main{
+            display: flex;
+            background-color: rgb(226, 223, 223);
+            
+            
+           
+
+        }
+        .aboutme{
+            display: flex;
+            align-self: center;
+            flex-direction: column;
+            margin: 50px;
+           
+            align-items: center;
+        }
+        .about{
+            width: 60%;
+            text-transform: capitalize;
+            padding: 20px;
+            line-height: 24px;
+           
+        }
+        .myimage 
+        {
+            align-self:center;
+           
+            display: flex;
+            
+        }
+        .owner{
+           
+            border-radius: 100px;
+        }
+        
+        .about{
+            color: rgb(15, 21, 77);
+            ;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .aboutheading{
+            color: brown;
+        
+           
+            
+        }
+        
+        @media screen and (max-width:400px)
+        { 
+        
+        }
+        @media screen and (max-width:770px)
+        { 
+          main{
+              flex-direction: column;
+          }
+          .about{
+            width: 100%;
+            padding-left: 0px 20px;
+            
+        }
+        .myimage{
+            align-self: center;
+            margin-bottom: 20px;
+        }
+        }
+        @media screen and (max-width:1100px){
+            main{
+              flex-direction: column;
+          }
+          .myimage{
+            align-self: center;
+            margin-bottom: 20px;
+        }
+        }

@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    
+    line-height: 23px;
+}
+.maincontent{
+    font-family: cursive;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+   
+    
+}
+.photo-of-owner
+{
+  width: 80%;
+  border: 2px solid white;
+  border-radius: 30px;
+
+}
+.block_biography{
+    display: flex;
+    width: 100%;
+    margin: 6% 0px;
+    justify-content: space-around;
+   
+}
+
+
+.photo-container{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+   
+    width: 30%;
+    
+}
+.block_story{
+    display: flex;
+    text-align: center;
+    width: 40%;
+    align-items: center;
+   
+
+}
+
+
+
+@media screen and (max-width:650px)
+{
+    .block_story{
+  
+    width: 70%;
+    text-align: left;
+    
+
+}
+.photo-container{
+   
+    width: 60%;
+}
+.photo-of-owner{
+    
+    width: 80%;
+    
+    }
+
+}
+@media screen and (max-width:800px)
+{
+.block_biography{
+   
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid black;
+    align-items: center;
+}
+
+}

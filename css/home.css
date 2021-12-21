@@ -1,0 +1,80 @@
+*{ 
+            
+    font-weight: bold;
+}
+body{
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.main--container{
+    display: flex;
+    grid-column: 1/4;
+   
+    background-color: rgb(226, 223, 223);
+    border: 3px rgb(22, 22, 22) solid;
+    justify-content: center;
+}
+.photo_container{
+    margin: 10% 0px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.home_photo{
+   display: flex;
+   max-width: 70%;
+
+   border-radius: 50px;
+   box-shadow: 9px 7px 2px 1px rgb(32, 37, 24) ;
+ 
+   
+}
+
+
+.page_introduction{
+    margin: 10% 0px;
+    display: flex;
+    flex-flow: column wrap;
+  
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.introduction-text{
+   display: flex;
+   width: 50%;
+   margin-bottom: 10%;
+   line-height: 1.5rem;
+   font-size: 1rem;
+   text-align: center;
+   
+   border-radius: 30px;
+   box-shadow: 3px 21px 23px 0px rgb(70, 69, 69);
+   font-weight: bold;
+   font-family:cursive;
+   
+}
+.text{
+   margin-bottom: 20px;
+   padding-bottom: 20px;
+   font-family:serif;
+   border-bottom: 6px solid brown;
+}
+@media screen and (max-width:850px)
+{
+.main--container{
+flex-direction: column;
+}
+.home_photo{
+width: 40%;
+margin-top: 10%;
+}
+.introduction-text{
+width: 60%;
+}
+}
