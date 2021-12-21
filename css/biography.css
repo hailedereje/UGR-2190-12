@@ -7,7 +7,8 @@ body{
     line-height: 23px;
 }
 .maincontent{
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: medium;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -19,6 +20,8 @@ body{
   width: 80%;
   border: 2px solid white;
   border-radius: 30px;
+  box-shadow: 12px 12px 12px 12px rgb(179, 157, 157);
+
 
 }
 .block_biography{
@@ -41,14 +44,19 @@ body{
 }
 .block_story{
     display: flex;
+    flex-direction: column;
     text-align: center;
-    width: 40%;
+    width: 50%;
     align-items: center;
    
 
 }
 
-
+strong{
+    font-size: 20px;
+    margin-bottom: 3%;
+    border-bottom: 4px solid rgb(2, 37, 2);
+}
 
 @media screen and (max-width:650px)
 {
@@ -63,20 +71,29 @@ body{
    
     width: 60%;
 }
-.photo-of-owner{
+.photo-of-owner
+    {
     
     width: 80%;
     
     }
 
 }
+@media screen and (max-width:500px)
+{
+    .block_story{
+        font-size: 13px;
+        text-align: center;
+
+
+    }
+}
+
 @media screen and (max-width:800px)
 {
 .block_biography{
    
     flex-direction: column;
-    justify-content: space-around;
-    border: 3px solid black;
     align-items: center;
 }
 

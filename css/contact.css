@@ -50,7 +50,7 @@ input {
     transition: width 0.4s ease-in-out;
 }
 textarea {
-    width: 30%;
+    width: 40%;
     height: 30%;
    
     box-sizing: border-box;
@@ -90,14 +90,14 @@ input[type="button"]:hover{
  
 }
 textarea:focus {
-  width: 40%;
+  width: 50%;
  
  
 }
 label{
     margin-bottom: 12px;
    
-   cursor: pointer;
+    cursor: pointer;
 }
 
 .heading{

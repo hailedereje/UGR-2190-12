@@ -10,7 +10,7 @@ main{
     display: flex;
     background-color: rgb(226, 223, 223);
     flex-direction: column;
-    flex-wrap: wrap;
+    
     align-items: center;
     
 }
@@ -54,21 +54,21 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(115, 152, 167);
 }
 
-.list-of-skill li{
+.list-of-skill {
   font-size: 3.5vh;
  
-
-  
-
 }
-
-.link
+.link{
+    font-size: 16px;
+    font-weight: bold;
+}
+.list-of-skill a
 {
 color: black;
 }
-.link:hover{
-color: red;
-
+.list-of-skill a:hover{
+color: white;
+background-color:  rgb(4, 112, 46);
 border-radius: 20px;
 }
 
@@ -144,13 +144,16 @@ span{
 border-radius: 0px;
 }
 
-.link
+.list-of-skill a
 {
   font-size:1rem;
 }
 
 .level{
   display: none;
+}
+.mainpart1{
+    flex-direction: column;
 }
 }
 
@@ -161,10 +164,6 @@ border-radius: 0px;
     .list-of-skill li{
         font-size: 16px;
         margin-right: 10px;
-    }
-
-    .mainpart1{
-        flex-direction: column;
     }
 
 

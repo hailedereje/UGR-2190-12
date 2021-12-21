@@ -1,8 +1,7 @@
 body
         {
             display: grid;
-            padding: 0px;
-            margin: 0px;
+            
             flex-direction: column;
             grid-template-columns: 1fr ;
 
@@ -50,14 +49,17 @@ body
         }
         .aboutheading{
             color: brown;
+            text-align: center;
         
            
             
         }
         
-        @media screen and (max-width:400px)
+        @media screen and (max-width:300px)
         { 
-        
+          .aboutme{
+              flex-direction: column;
+          }
         }
         @media screen and (max-width:770px)
         { 

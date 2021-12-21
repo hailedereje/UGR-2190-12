@@ -68,6 +68,7 @@ background-color: rgb(48, 158, 94);
 #h1{
 display: flex;
 justify-content: center;
+text-align: center;
 margin: 5% 0px;
 }
 
@@ -75,7 +76,10 @@ margin: 5% 0px;
  color: black;
  border-radius: 20px;
 }  
-h5{
- color: white;
-}
 
+@media screen and (max-width:500)
+{
+   .faq-item{
+   width: 80%;
+   }
+}
