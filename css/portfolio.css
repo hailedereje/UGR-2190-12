@@ -10,7 +10,7 @@ main{
     display: flex;
     background-color: rgb(226, 223, 223);
     flex-direction: column;
-    
+    flex-wrap: wrap;
     align-items: center;
     
 }
@@ -62,13 +62,13 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-.list-of-skill a
+.link
 {
 color: black;
 }
-.list-of-skill a:hover{
-color: white;
-background-color:  rgb(4, 112, 46);
+.link:hover{
+color: red;
+
 border-radius: 20px;
 }
 
@@ -144,7 +144,7 @@ span{
 border-radius: 0px;
 }
 
-.list-of-skill a
+.link
 {
   font-size:1rem;
 }
@@ -161,6 +161,10 @@ border-radius: 0px;
     .list-of-skill li{
         font-size: 16px;
         margin-right: 10px;
+    }
+
+    .mainpart1{
+        flex-direction: column;
     }
 
 
