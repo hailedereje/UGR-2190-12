@@ -1,0 +1,134 @@
+body{
+    margin: 0px ;
+    padding: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 223, 223);
+}
+.maincontainer{
+   
+    box-shadow: 10px 12px 12px 0px gray;
+    display: flex;
+    width: 60%;
+    border-radius: 30px;
+    margin-top: 10%;
+    overflow: hidden;
+  
+}
+.image-slide{
+   
+    display: flex;
+    width: 100%;
+    
+}
+.image-slide img{
+    width: 100%;
+    height: 100%;
+}
+.button{
+    display: flex;
+   margin-bottom: 10%;
+   margin-top: 2%;
+
+    
+}
+
+.button-click{
+   
+    font-size: 20px;
+    margin-right: 10vw;
+    cursor: pointer;
+}
+.button-click:hover {
+    color: white;
+    background: rgb(10, 10, 10);
+}
+
+
+.video-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    ;
+
+}
+.video_element{
+    margin: 30px 0px;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: rgb(41, 39, 37);
+    box-shadow: 23px 23px 12px 2px rgb(233, 163, 163);
+}
+.image-container{
+    border: 4px solid blue;
+    display: flex;
+}
+.header{
+    text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header_1{
+    color: rgb(107, 6, 6);
+}
+
+table{
+    text-align: left;
+    
+    width: 100%;
+    height: 100%;
+
+    border-collapse: collapse;
+}
+.table_container{
+    display: flex;
+    border: 2px solid blue;
+    width: 80%;
+    
+    margin-bottom: 10vw;
+}
+
+ td , th{
+    font-size: 20px;
+    font-weight: 800;
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 100px;
+    padding: 10px 3px;   
+    
+}
+th{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+tr{
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background: rgb(52, 145, 52);
+    box-shadow:12px 12px 12px 0px grey;
+}
+
+@media screen and (max-width:500px)
+{
+    th ,td{
+        font-family:monospace;
+        font-weight:700;
+        font-size: 10px;
+        padding: 1px;  
+    
+    } 
+    .video_element{
+        width: 200px;
+
+    }
+    
+}
+/* <i class="fas fa-backward" id="prevBtn"></i>
+            <i class="fas fa-forward" id="nextBtn"></i>*/
